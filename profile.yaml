@@ -1,0 +1,250 @@
+profile_name: Mahmoud Ahmed Shawqi
+headline: AI engineer and software developer focused on remote and freelance AI, backend, fullstack web, and desktop-app work.
+
+title_keywords:
+  - ai engineer
+  - ai developer
+  - machine learning engineer
+  - ml engineer
+  - nlp engineer
+  - llm engineer
+  - generative ai
+  - genai
+  - applied ai
+  - ai solutions engineer
+  - prompt engineer
+  - python backend
+  - backend engineer
+  - backend developer
+  - python developer
+  - software engineer
+  - software developer
+  - api developer
+  - fastapi developer
+  - django developer
+  - full stack developer
+  - full-stack developer
+  - fullstack developer
+  - full stack engineer
+  - full-stack engineer
+  - fullstack engineer
+  - web developer
+  - web application developer
+  - desktop application developer
+  - desktop app developer
+  - desktop application
+  - desktop app
+  - electron developer
+  - pyqt developer
+  - qt developer
+  - python automation
+  - data engineer
+  - ذكاء اصطناعي
+  - تعلم آلي
+  - بايثون
+  - باك اند
+  - backend
+  - فول ستاك
+  - فل ستاك
+  - تطبيق ويب
+  - تطبيقات ويب
+  - تطبيق سطح المكتب
+  - سطح المكتب
+
+skill_keywords:
+  - python
+  - fastapi
+  - flask
+  - django
+  - sqlalchemy
+  - pytorch
+  - tensorflow
+  - scikit-learn
+  - hugging face
+  - transformers
+  - langchain
+  - rag
+  - llm
+  - nlp
+  - computer vision
+  - openai
+  - prompt engineering
+  - ai agent
+  - agents
+  - docker
+  - backend
+  - api
+  - api integration
+  - graphql
+  - websocket
+  - sql
+  - postgresql
+  - mysql
+  - sqlite
+  - redis
+  - etl
+  - data pipeline
+  - rest api
+  - javascript
+  - typescript
+  - react
+  - next.js
+  - nextjs
+  - vue
+  - node.js
+  - nodejs
+  - express
+  - full stack
+  - fullstack
+  - web application
+  - web app
+  - electron
+  - pyqt
+  - qt
+  - tkinter
+  - tauri
+  - desktop application
+  - desktop app
+  - c#
+  - .net
+  - wpf
+  - automation
+  - selenium
+  - scraping
+  - bot
+  - ذكاء اصطناعي
+  - بايثون
+  - فول ستاك
+  - فل ستاك
+  - تطبيق سطح المكتب
+  - arabic
+
+bonus_keywords:
+  - part time
+  - part-time
+  - contract
+  - freelance
+  - consultant
+  - consulting
+  - hourly
+  - fixed price
+  - fixed-price
+  - project based
+  - project-based
+  - remote
+  - worldwide
+  - global
+  - startup
+  - long term
+  - long-term
+  - saudi
+  - uae
+  - gulf
+  - mena
+  - legal tech
+  - healthcare
+  - ai agents
+  - vector database
+  - عن بعد
+  - دوام جزئي
+  - مشروع
+  - مستقل
+
+preferred_job_types:
+  - part time
+  - part-time
+  - contract
+  - freelance
+  - consultant
+  - temporary
+  - hourly
+  - fixed price
+  - fixed-price
+  - project based
+  - project-based
+
+preferred_location_keywords:
+  - worldwide
+  - global
+  - remote
+  - anywhere
+  - egypt
+  - mena
+  - middle east
+  - gulf
+  - saudi
+  - uae
+  - qatar
+  - kuwait
+  - africa
+  - europe
+  - asia
+  - utc+4
+  - gmt+3
+  - عن بعد
+
+blocked_location_keywords:
+  - us only
+  - usa only
+  - united states only
+  - canada only
+  - uk only
+  - australia only
+  - new zealand only
+  - on site
+  - onsite
+  - relocation required
+  - must reside in
+
+excluded_keywords:
+  - sales
+  - recruiter
+  - recruitment
+  - marketing
+  - hotel
+  - booking
+  - travel agent
+  - customer support
+  - customer service
+  - editor
+  - video editor
+  - after effects
+  - graphic design
+  - quality assurance
+  - qa engineer
+  - qa automation
+  - cloud engineer
+  - network engineer
+  - devops engineer
+  - site reliability
+  - sre
+  - windows engineer
+  - head of
+  - director
+  - vice president
+  - chief
+  - nurse
+  - physician
+  - therapist
+  - real estate agent
+  - insurance sales
+
+minimum_score: 10.0
+hours_lookback: 168
+max_alert_items: 20
+poll_interval_minutes: 60
+warmup_without_alerts: true
+
+sources:
+  mostaql:
+    enabled: true
+    score_adjustment: 1.0
+  remoteok:
+    enabled: true
+    score_adjustment: -3.0
+  remotive:
+    enabled: true
+    score_adjustment: 0.0
+  jobicy:
+    enabled: true
+    score_adjustment: 0.0

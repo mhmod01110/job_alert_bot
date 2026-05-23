@@ -1,0 +1,17 @@
+[Unit]
+Description=Telegram Job Alert Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/job-alert-bot
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/job-alert-bot/.venv/bin/python -m job_alert_bot
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

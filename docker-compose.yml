@@ -1,0 +1,18 @@
+services:
+  job-alert-bot:
+    build:
+      context: .
+    image: job-alert-bot:latest
+    restart: unless-stopped
+    init: true
+    env_file:
+      - .env
+    environment:
+      PROFILE_PATH: /app/profile.yaml
+      DATABASE_PATH: /app/data/job_alerts.sqlite3
+    volumes:
+      - ./profile.yaml:/app/profile.yaml:ro
+      - job-alert-data:/app/data
+
+volumes:
+  job-alert-data:
